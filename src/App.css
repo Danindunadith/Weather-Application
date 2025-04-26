@@ -1,0 +1,71 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 28px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px 0 0 8px;
+  width: 70%;
+  font-size: 16px;
+  outline: none;
+}
+
+.button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.weather-card {
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  color: #555;
+}
+
+.weather-card h2 {
+  margin-bottom: 10px;
+}
+
+.weather-card p {
+  margin: 5px 0;
+}
